@@ -1,9 +1,46 @@
 export const menuData = [
 
-  /* 1 — مناقيش عادي */
+  {
+    id: 'manakeesh-secondary',
+    name: 'مناقيش عادي ',
+    items: [
+      { id: 'mn1', name: 'زعتر', price: '60,000' },
+      { id: 'mn2', name: 'جبنة', price: '180,000' },
+      { id: 'mn3', name: 'قشقوان', price: '200,000' },
+      { id: 'mn4', name: 'حلّوم', price: '200,000' },
+      { id: 'mn5', name: 'عكّاوي و قشقوان', price: '230,000' },
+      { id: 'mn6', name: 'عكّاوي و حلّوم', price: '230,000' },
+      { id: 'mn7', name: 'موزريلا', price: '200,000' },
+      { id: 'mn8', name: 'عكّاوي و موزريلا', price: '230,000' },
+      { id: 'mn9', name: 'جبنة حرّة', price: '200,000' },
+      { id: 'mn10', name: '٣ أجبان', price: '250,000' },
+      { id: 'mn11', name: 'كوكتيل', price: '160,000' },
+      { id: 'mn12', name: 'بندورة و بصل', price: '140,000' },
+      { id: 'mn13', name: 'بندورة و بصل مع جبنة', price: '160,000' },
+      { id: 'mn14', name: 'كشك', price: '150,000' },
+      { id: 'mn15', name: 'كشك مع جبنة', price: '170,000' },
+      { id: 'mn16', name: 'لحمة', price: '210,000' },
+      { id: 'mn17', name: 'لحمة مع جبنة', price: '230,000' },
+      { id: 'mn18', name: 'كفتة', price: '220,000' },
+      { id: 'mn19', name: 'كفتة مع جبنة', price: '240,000' },
+      { id: 'mn20', name: 'سجق', price: '220,000' },
+      { id: 'mn21', name: 'سجق و جبنة', price: '240,000' },
+      { id: 'mn22', name: 'فاهيتا', price: '280,000' },
+      { id: 'mn23', name: 'طاووق و جبنة', price: '290,000' },
+      { id: 'mn24', name: 'همبرغر مع جبنة', price: '290,000' },
+      { id: 'mn25', name: 'مرتديلا و جبنة', price: '230,000' },
+      { id: 'mn26', name: 'حبش مدخّن', price: '250,000' },
+      { id: 'mn27', name: 'بيبروني و جبنة', price: '260,000' },
+      { id: 'mn28', name: 'سبانخ و جبنة', price: '170,000' },
+      { id: 'mn29', name: 'لبنة', price: '140,000' },
+      { id: 'mn30', name: 'لبنة و زعتر', price: '150,000' },
+      { id: 'mn31', name: 'دوبلكس', price: '270,000' }
+    ]
+  },
+
   {
     id: 'manakeesh-normal',
-    name: 'مناقيش عادي',
+    name: 'مناقيش مشروح',
     items: [
       { id: 'na1', name: 'زعتر', price: '70,000' },
       { id: 'na2', name: 'جبنة', price: '240,000' },
@@ -78,43 +115,7 @@ export const menuData = [
   },
 
   /* 3 — مناقيش عادي (حسب لائحة ثالثة بعتّها) */
-  {
-    id: 'manakeesh-secondary',
-    name: 'مناقيش عادي 2',
-    items: [
-      { id: 'mn1', name: 'زعتر', price: '60,000' },
-      { id: 'mn2', name: 'جبنة', price: '180,000' },
-      { id: 'mn3', name: 'قشقوان', price: '200,000' },
-      { id: 'mn4', name: 'حلّوم', price: '200,000' },
-      { id: 'mn5', name: 'عكّاوي و قشقوان', price: '230,000' },
-      { id: 'mn6', name: 'عكّاوي و حلّوم', price: '230,000' },
-      { id: 'mn7', name: 'موزريلا', price: '200,000' },
-      { id: 'mn8', name: 'عكّاوي و موزريلا', price: '230,000' },
-      { id: 'mn9', name: 'جبنة حرّة', price: '200,000' },
-      { id: 'mn10', name: '٣ أجبان', price: '250,000' },
-      { id: 'mn11', name: 'كوكتيل', price: '160,000' },
-      { id: 'mn12', name: 'بندورة و بصل', price: '140,000' },
-      { id: 'mn13', name: 'بندورة و بصل مع جبنة', price: '160,000' },
-      { id: 'mn14', name: 'كشك', price: '150,000' },
-      { id: 'mn15', name: 'كشك مع جبنة', price: '170,000' },
-      { id: 'mn16', name: 'لحمة', price: '210,000' },
-      { id: 'mn17', name: 'لحمة مع جبنة', price: '230,000' },
-      { id: 'mn18', name: 'كفتة', price: '220,000' },
-      { id: 'mn19', name: 'كفتة مع جبنة', price: '240,000' },
-      { id: 'mn20', name: 'سجق', price: '220,000' },
-      { id: 'mn21', name: 'سجق و جبنة', price: '240,000' },
-      { id: 'mn22', name: 'فاهيتا', price: '280,000' },
-      { id: 'mn23', name: 'طاووق و جبنة', price: '290,000' },
-      { id: 'mn24', name: 'همبرغر مع جبنة', price: '290,000' },
-      { id: 'mn25', name: 'مرتديلا و جبنة', price: '230,000' },
-      { id: 'mn26', name: 'حبش مدخّن', price: '250,000' },
-      { id: 'mn27', name: 'بيبروني و جبنة', price: '260,000' },
-      { id: 'mn28', name: 'سبانخ و جبنة', price: '170,000' },
-      { id: 'mn29', name: 'لبنة', price: '140,000' },
-      { id: 'mn30', name: 'لبنة و زعتر', price: '150,000' },
-      { id: 'mn31', name: 'دوبلكس', price: '270,000' }
-    ]
-  },
+
 
 
 

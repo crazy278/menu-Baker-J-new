@@ -54,10 +54,14 @@ function App() {
         </div>
       </div>
 
-      <MenuItemDialog
-        item={selectedItem}
-        onClose={() => setSelectedItem(null)}
-      />
+      {/* الحوار بينعرض بس إذا في selectedItem */}
+      {selectedItem && (
+        <MenuItemDialog
+          isOpen={true}
+          item={selectedItem as MenuItem}
+          onClose={() => setSelectedItem(null)}
+        />
+      )}
     </div>
   );
 }

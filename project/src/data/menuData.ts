@@ -358,7 +358,7 @@ export const menuData = [
       { id: 'mg13', name: 'سبانخ', price: '300,000' },
       { id: 'mg14', name: 'طرابلسيّة', price: '400,000' },
       { id: 'mg15', name: 'أصابع جبنة (رقاقات)', price: '400,000' },
-      { id: 'mg16', name: 'دزّينة لحمة', price: '400,000' }
+      { id: 'mg16', name: 'دزّينة لحمة', price: '450,000' }
     ]
   },
 
@@ -374,8 +374,6 @@ export const menuData = [
       { id: 'sp6', name: 'زيادة جبنة', price: '100,000' },
       { id: 'sp7', name: 'اكسترا', price: '100,000' },
       { id: 'sp8', name: 'علبة دبس رمّان', price: '20,000' }
-      { id: 'sp9', name: 'دزينة لحمة', price: '450,000' },
-
     ]
   },
 

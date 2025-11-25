@@ -368,12 +368,14 @@ export const menuData = [
     items: [
       { id: 'sp1', name: 'باكرجي', price: '350,000' },
       { id: 'sp2', name: 'فطيرة سبانخ', price: '70,000' },
-      { id: 'sp3', name: 'كيلو لحمة بعجين', price: '1,600,000' },
+      { id: 'sp3', name: 'كيلو لحمة بعجين', price: '1,800,000' },
       { id: 'sp4', name: 'صحن لبنة', price: '30,000' },
       { id: 'sp5', name: 'صحن خضرا', price: '30,000' },
       { id: 'sp6', name: 'زيادة جبنة', price: '100,000' },
       { id: 'sp7', name: 'اكسترا', price: '100,000' },
       { id: 'sp8', name: 'علبة دبس رمّان', price: '20,000' }
+      { id: 'sp9', name: 'دزينة لحمة', price: '450,000' },
+
     ]
   },
 
